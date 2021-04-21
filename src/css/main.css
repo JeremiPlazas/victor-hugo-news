@@ -30,3 +30,20 @@ a {
 .content {
   padding: 0 32px;
 }
+
+.grid-container {
+  display: grid; 
+  grid-column-gap: 10px; 
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
