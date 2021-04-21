@@ -56,4 +56,25 @@ ul {
 li {
   list-style-type: none;
   margin: .2em 0;
+  font-size: .9em;
+}
+
+h3 {
+  color: #ffc107;
+}
+
+h3 .fad {
+  --fa-primary-color: #673ab7;
+  --fa-secondary-color: #4caf50;
+  --fa-secondary-opacity: 1;
+}
+
+a {
+  color: #65dfef;
+}
+
+a .fad {
+  --fa-primary-color: #00bcd4;
+  --fa-secondary-color: #f44336;
+  --fa-secondary-opacity: 1;
 }
