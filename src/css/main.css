@@ -47,3 +47,12 @@ a {
     grid-template-columns: auto auto auto;
   }
 }
+
+ul {
+  text-align: left;
+  padding: none;
+}
+
+li {
+  list-style-type: none;
+}
