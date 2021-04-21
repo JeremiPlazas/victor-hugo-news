@@ -4,8 +4,8 @@
 
 <div class="container">
 
-    {{ .Site.GetPage "links" }}
-
+    {{% content "links.md" %}}
+    
 </div>
 
 <a href="{{ "/tech" | relURL }}">Check out the tech</a>
