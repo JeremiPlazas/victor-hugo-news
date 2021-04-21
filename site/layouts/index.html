@@ -1,8 +1,12 @@
 {{ define "main" }}
 
-<h1>This is news for me!</h1>
+<h1>News 2 Me</h1>
 
-<p>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</p>
+<div class="container">
+
+    {{ .Site.GetPage "links" }}
+
+</div>
 
 <a href="{{ "/tech" | relURL }}">Check out the tech</a>
 
