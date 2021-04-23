@@ -31,7 +31,7 @@ h1 {
 
 h1 .fad {
   --fa-primary-color: #2196f3;
-  --fa-secondary-color: #f44336;
+  --fa-secondary-color: #673ab7;
   --fa-secondary-opacity: 1;
 }
 
@@ -51,6 +51,9 @@ a {
 
 .grid-item {
   text-align: left;
+  border-right: 1px solid;
+  padding-right: 1em;
+  margin-bottom: 2em;
 }
 
 @media only screen and (min-width: 500px) and (max-width: 799px) {
