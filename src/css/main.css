@@ -46,14 +46,11 @@ a {
 
 .grid-container {
   display: grid; 
-  grid-column-gap: 30px; 
 }
 
 .grid-item {
   text-align: left;
-  border-right: 1px solid #464b55;
-  padding-right: 1em;
-  margin-bottom: 2em;
+  padding: 1em;
 }
 
 @media only screen and (min-width: 500px) and (max-width: 799px) {
