@@ -51,7 +51,7 @@ a {
 
 .grid-item {
   text-align: left;
-  border-right: 1px solid;
+  border-right: 1px solid #464b55;
   padding-right: 1em;
   margin-bottom: 2em;
 }
