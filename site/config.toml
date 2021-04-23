@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "Pop Your News Bubble"
+title = "Pop That News Bubble"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
