@@ -99,7 +99,8 @@ a:hover {
   text-decoration-thickness: 2px;
 }
 
-li .fad {
+li .fad,
+li .fab {
   margin-right: .1em;
   --fa-primary-color: #2196f3;
   --fa-secondary-color: #f44336;
