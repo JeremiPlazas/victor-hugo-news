@@ -105,3 +105,13 @@ li .fad {
   --fa-secondary-color: #f44336;
   --fa-secondary-opacity: 1;
 }
+
+.rss-feeds {
+
+}
+
+.feed-container {
+  font-size: 1em !important;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  line-height: 1.3;
+}
