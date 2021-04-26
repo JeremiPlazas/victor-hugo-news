@@ -6,7 +6,7 @@ import "./css/main.css";
 console.log("🦊 Hello! Edit me in src/index.js");
 
 
-
+alert("Yeah... it's loading... ¯\_(ツ)_/¯");
 
 
 // Custom
