@@ -135,6 +135,10 @@ li .fab {
   --fa-secondary-opacity: 1;
 }
 
+li .fab {
+  color: #f44336;
+}
+
 .feed-container {
   font-size: 1em !important;
   line-height: 1.3 !important;
