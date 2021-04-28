@@ -55,7 +55,10 @@ a {
   padding: 1em;
 }
 
-.grid-item:nth-child(odd) { background: #393e47; }
+.grid-item:nth-child(1),
+.grid-item:nth-child(3),
+.grid-item:nth-child(5),
+.grid-item:nth-child(7) { background: #393e47; }
 
 .grid-column-1,
 .grid-column-2,
@@ -76,6 +79,11 @@ a {
   .grid-column-4 {
     grid-area: auto / span 2;
   }
+  .grid-item:nth-child(1),
+  .grid-item:nth-child(4),
+  .grid-item:nth-child(5) { 
+    background: #393e47; 
+  }
 
 }
 
@@ -92,6 +100,11 @@ a {
   .grid-column-3,
   .grid-column-4 {
     grid-area: auto / span 3;
+  }
+  .grid-item:nth-child(1),
+  .grid-item:nth-child(4),
+  .grid-item:nth-child(5) { 
+    background: #393e47; 
   }
 }
 
