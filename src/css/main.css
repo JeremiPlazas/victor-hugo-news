@@ -58,11 +58,8 @@ h3 {
   font-weight: 400;
 }
 
-h3 .fad {
-  --fa-primary-color: #673ab7;
-  --fa-secondary-color: #4caf50;
-  --fa-secondary-opacity: 1;
-}
+h3 .svg-inline--fa .fa-primary { color: #673ab7; }
+h3 .svg-inline--fa .fa-secondary { color: #4caf50; opacity: 1;}
 
 a {
   color: #d0d0d0;
@@ -75,12 +72,15 @@ a:hover {
 }
 
 li .fad,
-li .fab {
-  margin-right: .1em;
-  --fa-primary-color: #2196f3;
-  --fa-secondary-color: #f44336;
-  --fa-secondary-opacity: 1;
-}
+li .fab { margin-right: .1em; }
+li .fad .svg-inline--fa .fa-primary,
+li .fab .svg-inline--fa .fa-primary { color: #2196f3; }
+li .fad .svg-inline--fa .fa-secondary,
+li .fab .svg-inline--fa .fa-secondary { color: #f44336; opacity: 1;}
+
+
+
+
 
 li .fab {
   color: #f44336;

@@ -6,8 +6,8 @@
 
         <h1>
             <span class="fa-layers fa-fw">
-                <i class="fad fa-star-exclamation fa-rotate-by" style="--fa-rotate-angle: 10deg;" data-fa-transform="shrink-4 up-10 right-10"></i>
-                <i class="fad fa-lightbulb-exclamation fa-rotate-by" style="--fa-rotate-angle: -10deg;" data-fa-transform="shrink-6 up-6 left-8"></i>
+                <i class="fad fa-star-exclamation" data-fa-transform="rotate--10 shrink-4 up-10 right-10"></i>
+                <i class="fad fa-lightbulb-exclamation" data-fa-transform="rotate--350 shrink-6 up-6 left-8"></i>
                 <i class="fad fa-exclamation" data-fa-transform="grow-4 up-6 left-2"></i>
                 <i class="fad fa-question" data-fa-transform="shrink-8 up-6 right-2"></i>
                 <i class="fad fa-bell-exclamation" data-fa-transform="shrink-2 up-8 left-4"></i>
@@ -297,6 +297,15 @@
         <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. --> 
         <div style="text-align:right;">powered by <a href="https://surfing-waves.com" rel="noopener" target="_blank">Surfing Waves</a></div> 
         <!-- end sw-rss-feed code -->
+        <script type="text/javascript">
+            $('.feed-container').css({
+                'line-height':'1.3',
+                'font-size':'calc(10px + 1vmin)'
+            })
+            $('.feed-container a[href^="http://www.democracynow.org/"]').prepend('🗽 DN!: ').css('color','#f44336');
+            $('.feed-container a[href^="http://feeds.propublica.org/"]').prepend('🔍 PP: ').css('color','#00bcd4');
+            $('.feed-container a[href^="https://theanarchistlibrary.org/"]').prepend('✊🏽 AL: ').css('color','#8bc34a');
+        </script>
     </div>
     
 </div>
