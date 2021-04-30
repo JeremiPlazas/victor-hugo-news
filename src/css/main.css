@@ -128,11 +128,11 @@ li .fab {
   .grid-column-4 {
     grid-area: auto / span 2;
   }
-  .grid-item {background: none;}
+  .grid-item {background: none !important;}
   .grid-item:nth-child(2),
   .grid-item:nth-child(5),
   .grid-item:nth-child(6) { 
-    background: #393e47; 
+    background: #393e47 !important; 
   }
 
 }
@@ -151,11 +151,11 @@ li .fab {
   .grid-column-4 {
     grid-area: auto / span 3;
   }
-  .grid-item {background: none;}
+  .grid-item {background: none !important;}
   .grid-item:nth-child(2),
   .grid-item:nth-child(5),
   .grid-item:nth-child(6) { 
-    background: #393e47; 
+    background: #393e47 !important; 
   }
 }
 
