@@ -73,10 +73,8 @@ a:hover {
 
 li .fad,
 li .fab { margin-right: .1em; }
-li .fad .svg-inline--fa .fa-primary,
-li .fab .svg-inline--fa .fa-primary { color: #2196f3; }
-li .fad .svg-inline--fa .fa-secondary,
-li .fab .svg-inline--fa .fa-secondary { color: #f44336; opacity: 1;}
+li .svg-inline--fa .fa-primary { color: #2196f3; }
+li .svg-inline--fa .fa-secondary { color: #f44336; opacity: 1;}
 
 
 
