@@ -160,6 +160,30 @@ li .fab {
   }
 }
 
+@media only screen and (min-width: 1280px) {
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+  .grid-column-1 {
+    grid-area: auto / span 1;
+  }
+  .grid-column-2 {
+    grid-area: auto / span 2;
+  }
+  .grid-column-3 {
+    grid-area: auto / span 3;
+  }
+  .grid-column-4 {
+    grid-area: auto / span 4;
+  }
+  .grid-item {background: none !important;}
+  .grid-item:nth-child(2),
+  .grid-item:nth-child(5),
+  .grid-item:nth-child(6),
+  .grid-item:nth-child(10) { 
+    background: #393e47 !important; 
+  }
+}
 
 
 .feed-title { text-align: center; }
