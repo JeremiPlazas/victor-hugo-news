@@ -196,11 +196,11 @@ li .fab {
   display: block;
 }
 .feed-item-title { 
-  margin-top: .5em; 
+  margin-top: 1em; 
   margin-bottom: .2em; 
 }
-.feed-item-title a { color: #e91e63; }
+.feed-item-title a { color: #cddc39; }
 .feed-item-desc { 
   margin: 0; 
-  font-size: .8em;
+  line-height: 1.4;
 }
