@@ -97,6 +97,7 @@ li .fab {
 .grid-container {
   display: grid; 
   height: 100%;
+  max-width: 1440px;
 }
 
 .grid-item {
