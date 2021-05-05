@@ -212,8 +212,6 @@ li .fab {
 .feed-title-image {
   margin: .4em auto;
   border-radius: 4px;
-  height: auto;
-  width: auto;
   display: block;
 }
 .feed-item-title { 
