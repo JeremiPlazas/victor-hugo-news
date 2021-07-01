@@ -113,6 +113,7 @@ li .fab {
 .grid-container {
   display: grid; 
   height: 100%;
+  width: 100%;
   max-width: 1440px;
   grid-template-columns: 100%;
 }
